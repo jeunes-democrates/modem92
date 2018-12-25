@@ -5,27 +5,34 @@ image: images/bg.jpg
 bottom_image: https://unsplash.it/2000/1322?a=.png
 ---
 
+<!-- header -->
 <section class="jumbotron hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>Fédération des Hauts-de-Seine</h1>
-			<p class="subtext">Je ne sais pas quoi dire ici</p>
-			<div class="cta button alt"><a href="#">Nous rejoindre</a></div>
+			<h1>Fédération 92</h1>
+			<p class="subtext">Mouvement Démocrate des Hauts-de-Seine</p>
+			<div class="cta button alt"><a href="#">Adhérer</a></div>
 		</div>
 	</div>
 	<div class="learn-more"><a href="#learn-more">En savoir plus <span class="arrow">&#x25BC;</span></a></div>
 </section>
-<section class="bg-brand" id="lean-more">
-  <div class="container">
+
+<!-- Call to action -->
+<section class="bg-brand">
+  <div id="lean-more" class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading text-white">Bienvenue</h2>
+        <h2 class="section-heading">Bienvenue</h2>
         <hr class="light my-4">
         <p class="text-faded mb-4">Bienvenue sur la page de la fédération du mouvement démocrate des Hauts-de-Seine. Retrouvez nos actus et la liste de nos élus.</p>
-      </div>
+				<div class="button"><a href="#newsletter">S'inscrire à notre newsletter</a></div>
+			</div>
     </div>
   </div>
 </section>
+
+<!-- Présidente -->
+<section class="pad">
 <div class="container">
 <div class="row featurette">
       <div class="col-md-7">
@@ -45,14 +52,30 @@ Alice Le Moal</p>
       </div>
     </div>
 </div>
-<div class="container">
-yer énergiquement au Parlement une  action  que nous voulons ardente, courageuse et tenace en vue de relever les immenses défis qui nous sont lancés : recoudre le tissu d'une société fragmentée et divisée, réconcilier les valeurs de l'entreprise et de la solidarité, préserver les ressources et les grands équilibres de la planète, rendre force, imagination et dynamisme au projet européen .
+</section>
 
-Humanisme, développement de l'état de droit, respect de la laïcité républicaine et de la liberté de conscience, indivisibilité des enjeux économiques et sociaux, recherche prioritaire de la paix civile et internationale, confiance en une Europe rassemblée
+<!-- valeurs -->
+<section class="pad">
+<div class="container">
+
+
+        <h2 class="heading">Nos valeurs</h2>
+
+
+<p>L’histoire du Mouvement Démocrate s’inscrit dans le l’histoire de la construction européenne. Dès Robert Schuman et Jean Monnet qui portèrent ce projet, convaincu que les peuples qui avaient inventé la démocratie avaient vocation à la faire vivre et rayonner.</p>
+<p>Ce fut la vision de l'Europe, justement, qui opposa le général de Gaulle à Jean Lecanuet. Quinze ans plus tard, en 1978, Valéry Giscard d'Estaing réunira ces familles de l'humanisme social et européen.</p>
+<p>Aujourd’hui, les défis qui s’annoncent à nous sont immenses. Nous voulons recoudre le tissu d'une société fragmentée et divisée, réconcilier les valeurs de l'entreprise et de la solidarité, préserver les ressources et les grands équilibres de la planète, rendre force, imagination et dynamisme au projet européen.</p>
+<p>Les valeurs que nous construisons ensemble sont des valeurs d’humanisme, de libéralisme social, de laïcité républicaine et de liberté de conscience.</p>
+<p>C’est notre indivisibilité des enjeux économiques et sociaux qui nous permettent de construire la recherche prioritaire de la paix civile et internationale et la confiance en une Europe rassemblée.</p>
+
+<div class="button"><a href="https://medium.com/133b/un-nouveau-site-web-pour-mieux-accueillir-les-militants-431a7093247d?source=rss----8f557725511a---4">En savoir plus</a></div>
+
 </div>
 
+</section>
 
-<section class="hero pad" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+<!-- Newsletter -->
+<section id="newsletter" class="hero pad" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
 <div id="mc_embed_signup" class="text-container contact-box">
 <form action="https://modem92.us17.list-manage.com/subscribe/post?u=5e5bc6a9f575535d227930b57&amp;id=cd490ded46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate contact-form" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">

@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/license/jeunes-democrates/modem92.svg) ![](https://img.shields.io/discord/218722212675452929.svg) ![](https://img.shields.io/twitter/follow/modem92.svg?label=Follow&style=social)
+
 Pardonne fow my french
 
 # Federal
@@ -6,25 +8,21 @@ Un template jekyll pour présenter une équipe, notamment utile pour une fédér
 
 ![Frisco template screenshot](images/_screenshot.jpg)
 
-Federal est un fork de [Frisco](https://github.com).
+Federal est un fork de [Frisco](https://github.com/CloudCannon/frisco-jekyll-template).
 
 ## Features
 
-* Integration Medium
-* Contact form
-* Présentation du staff
-* Formulaire de contact
-* Configurable footer
-* Mailchimp
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+* Integration Medium ![Statut ok](https://img.shields.io/badge/statut-ok-green.svg)
+* Présentation du staff ![Statut ok](https://img.shields.io/badge/statut-ok-green.svg)
+* Formulaire de contact ![Coming soon](https://img.shields.io/badge/coming-soon-yellow.svg)
+* Mailchimp ![Statut ok](https://img.shields.io/badge/statut-ok-green.svg)
+* SEO tags ![Statut ok](https://img.shields.io/badge/statut-ok-green.svg)
+* Google Analytics ![Statut ok](https://img.shields.io/badge/statut-ok-green.svg)
 
 ## Paramétrer
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+1. Ajouter les détails du site et de l'auteur dans `_config.yml`.
+2. Ajouter ID Google Analytics également dans `_config.yml`.
 
 ## Forker
 
@@ -42,16 +40,9 @@ On lance ensuite la commande `jekyll` via Bundler pour être sûr d'être dans l
 $ bundle exec jekyll serve
 ~~~
 
-## Editing
+## Ajouts et édition
 
-Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff Members** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+Plus d'infos sur [le wiki](https://github.com/jeunes-democrates/modem92/wiki).
 
 ### Formulaire de contact
 
@@ -60,13 +51,3 @@ Frisco is already optimised for adding, updating and removing pages, staff, advi
 ### Staff
 
 * Créer un fichier .md par personne dans le dossier `staff`. Ils s'afficheront par ordre alphabétique.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.

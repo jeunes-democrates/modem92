@@ -219,3 +219,7 @@ blockquote:before {
 .cms-editor-active .editor-link {
 	display: block;
 }
+
+.bg-brand {
+	background-color: #{brand-color};
+}

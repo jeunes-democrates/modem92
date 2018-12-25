@@ -58,13 +58,13 @@ nav {
 
 			&:hover {
 				border: 0;
-				color: #e95d12;
+				color: #{$brand-color};
 			}
 		}
 	}
 
 	a.active {
-		border-bottom: 5px solid #e95d12;
+		border-bottom: 5px solid #{$brand-color};
 	}
 
 }

@@ -1,6 +1,6 @@
-- name: Blog
+- name: Actualités
   link: /blog/
-- name: Équipe
-  link: /about/
-- name: Contact
-  link: /contact/
+- name: Fédération
+  link: /federation/
+- name: Élus
+  link: /elus/

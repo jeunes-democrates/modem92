@@ -16,12 +16,13 @@ image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
 <section>
 	<div class="text-container">
 
-		<div class="post-list">
-			<div id="jsonContent"></div>
-		</div>
 
 		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
 		<ul class="blog-posts">
+			<div class="post-list">
+				<div id="jsonContent"></div>
+			</div>
+			
 			{% include list-posts.html posts=paginator.posts %}
 		</ul>
 

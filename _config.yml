@@ -19,7 +19,7 @@ social:
   name: Modem 92
   links:
     - https://github.com/jeunesdemocrates/modem92
-
+medium: https://medium.com/133b
 # -----
 # Build
 
@@ -30,8 +30,6 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
   - jekyll-archives
 
 exclude:
@@ -43,12 +41,6 @@ exclude:
 collections:
   staff_members:
     _hide_content: true
-
-paginate: 10
-paginate_path: "/blog/:num/"
-
-jekyll-archives:
-  enabled: ['categories']
 
 defaults:
   -

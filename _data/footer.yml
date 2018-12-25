@@ -7,21 +7,14 @@ left_links:
     link: /contact/
 right_links:
   - name:
-    link: https://facebook.com/
+    link: https://facebook.com/modem92
     new_window: true
     social_icon: Facebook
   - name:
-    link: https://twitter.com/
+    link: https://twitter.com/modem92
     social_icon: Twitter
     new_window: true
   - name:
-    link: https://youtube.com/
-    social_icon: YouTube
+    link: https://medium.com/133b
+    social_icon: Medium
     new_window: true
-  - name:
-    link: https://plus.google.com/
-    social_icon: Google Plus
-    new_window: true
-  - name:
-    link: /feed.xml
-    social_icon: RSS

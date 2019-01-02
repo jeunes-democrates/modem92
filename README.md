@@ -1,12 +1,12 @@
 ![](https://img.shields.io/github/license/jeunes-democrates/modem92.svg) ![](https://img.shields.io/discord/218722212675452929.svg) ![](https://img.shields.io/twitter/follow/modem92.svg?label=Follow&style=social)
 
-Pardonne fow my french
+Pardon my french
 
 # Federal
 
 Un template jekyll pour présenter une équipe, notamment utile pour une fédération de parti politique ou une liste électorale.
 
-![Frisco template screenshot](images/_screenshot.jpg)
+![Federal template screenshot](images/_screenshot.png)
 
 Federal est un fork de [Frisco](https://github.com/CloudCannon/frisco-jekyll-template).
 

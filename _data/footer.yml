@@ -1,10 +1,12 @@
 left_links:
   - name: Site national
-    link: /blog/
+    link: http://www.mouvementdemocrate.fr
   - name: Site européen
-    link: /about/
+    link: http://www.democrats.eu
   - name: Site jeunes
-    link: /contact/
+    link: http://www.jeunes-democrates.org
+  - name: Crédits
+    link: https://github.com/jeunes-democrates/modem92 
 right_links:
   - name:
     link: https://facebook.com/modem92
@@ -16,5 +18,5 @@ right_links:
     new_window: true
   - name:
     link: https://medium.com/133b
-    social_icon: Medium
+    social_icon: RSS
     new_window: true
